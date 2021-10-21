@@ -1,0 +1,24 @@
+{
+  "name": "learn-graphql",
+  "version": "1.0.0",
+  "description": "Pedagogical project for Efrei Paris to learn GraphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulCollas/learn.graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulCollas/learn.graphql/issues"
+  },
+  "homepage": "https://github.com/PaulCollas/learn.graphql#readme",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1"
+  }
+}
