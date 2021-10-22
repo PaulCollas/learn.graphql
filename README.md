@@ -30,10 +30,10 @@ For exemple in GraphQL :
 `
 model User
   id: int ( or string if you use UUID )
-  email: string
-  password: string
   firstName: string
   lastName: string
+  email: string
+  password: string
 `
 
 `
@@ -42,8 +42,6 @@ model Post
   author: User
   comments: Post[]
   content: string
-  createdAt: Date
-  updatedAt: Date
 `
 ## Ressources
 
@@ -52,6 +50,18 @@ I use this ressources for this project
 - [GraphQL Doc](https://graphql.org/learn/), I find here explanation about GraphQL.
 - [Appolo Serveer](https://www.apollographql.com/docs/apollo-server/), Apollo Server is a npm package that help me bootstrap a GraphQL Server.
 
+
+## Install
+
+`
+npm install
+`
+
+## Start the project
+
+`
+node index.js
+`
 
 
 ## Autors
